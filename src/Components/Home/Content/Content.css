@@ -1,0 +1,270 @@
+.container_main_heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: rgb(36, 31, 31); */
+    background-color: #272424;
+    color: white;
+    height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.FigmaImage1{
+    /* margin: 50px; */
+    margin-top: 20px;
+}
+.FigmaImage_coding {
+    width: 400px;
+    height: 400px;
+    margin-top: -76px;
+    margin-right: -50px;
+}
+.mernlogo {
+    background-color: #272424;
+    padding-top: 8%;
+    padding-bottom: 1%;
+}
+.mernlogo_card {
+    background-color: '#F0F344'!important;
+    color: #0d5209;
+    /* width: 104%; */
+    /* height: 20vh; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    /* margin-right: auto; */
+    /* justify-content: space-around; */
+
+}
+.mernlogo_card_text {
+    background-color: #F0F344;
+    
+    font-family: sans-serif;
+    padding: 16px;
+    
+    width: 60%;
+}
+
+.mernlogo_text {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.mernlogo_text_subtext {
+    font-size: 18px;
+    font-weight: bold;
+}
+.main_heading_CodingTuition {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.main_heading_subheading {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.enroll_btn {
+    width: 135px;
+    height: 54px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+.courses_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #272424;
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+.FrontEnd_card_text,.BackEnd_card_text, .MongoDB_card_text {
+    width: 70%;
+    font-size: 25px;
+    margin: 10px;
+}
+.FrontEnd_card {
+    background-color: rgb(211, 52, 52);
+    color: white;
+    /* width: 20%; */
+    height: 132px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.FrontEnd_card_Content, .BackEnd_card_Content, .MongoDB_card_Content {
+    /* width: 369px; */
+}
+.frontEnd_Img {
+    width: 118px;
+    height: 89px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.FrontEnd_Card_btn {
+    margin: 10px;
+}
+.BackEnd_card_btn,.MongoDB_card_btn {
+    margin: 10px;
+    margin-top: -10px;
+}
+.BackEnd_card {
+    background-color: rgb(46, 87, 223);
+    color: white;
+    /* width: 20%; */
+    height: 132px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.backEnd_Img {
+    width: 118px;
+    height: 89px;
+    margin-top: 5px;
+}
+
+.MongoDB_card {
+    background-color: rgb(219, 26, 210);
+    color: white;
+    /* width: 20%; */
+    height: 132px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.MongoDB_Img {
+    width: 118px;
+    height: 89px;
+    margin-top: 5px;
+}
+
+.fronEnd_courses, .BackEnd_courses {
+    background-color: #272424;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.card-img-top {
+    width: fit-content;
+    padding-top: 3%;
+}
+.css_logo {
+    height: 60%;
+    width: 81%;
+    padding-left: 12%;
+    padding-top: 3%;
+}
+.redux_logo {
+    width: 80%;
+    height: 90%;
+}
+.node_logo {
+    padding-top: 26%;
+    padding-bottom: 50%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.express_logo {
+    padding-top: 26%;
+    padding-bottom: 33%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.checked {
+    color: orange;
+  }
+  .our_vision {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      background-color: #272424;
+      color: white;
+  }
+  .visionandmission,.why_us {
+display: flex;
+justify-items: center;
+justify-content: center;
+color:rgb(46, 87, 223);
+background-color: #272424;
+border: 5px solid rgb(243, 239, 10);
+font-size: 55px;
+font-weight: bolder;
+  }
+
+  .vision_img {
+    width: max-content;
+    height: 15rem;
+    padding: 20px;
+}
+  
+.vision_text {
+    width: 50%;
+    padding: 20px;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+.why_us_features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.learning {
+    width: 56%;
+    /* height: 70%; */
+}
+.onlineSupport {
+    width: 40%;
+}
+.lady_wfh {
+    width: 36%;
+    margin-left: 106px
+}
+.womanUsingTablet {
+    width: 48%;
+    height: 70%;
+}
+.learning_with_pears_container, .lady_wfh_container,.online_support_container, .woman_using_tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.womanUsingTablet_text, .onlineSupport_text, .learning_text,.lady_wfh_text {
+    margin-top: 206px;
+}
+.collapse_btn{
+    width: 450px;
+    height: 50px;
+}
+
+#high {
+    margin-left: 100px;
+    color: white;
+}
+.card_text {
+    background-color: #95cace;
+    color: rgb(218, 62, 23);
+    font-size: 18px;
+    font-weight: bold;
+}
+.choose_us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.why_usImg {
+    width: 44rem;
+    height: 50rem;
+    margin-top: -12rem;
+}
+.why_us_text1 {
+    width: 46%;
+}

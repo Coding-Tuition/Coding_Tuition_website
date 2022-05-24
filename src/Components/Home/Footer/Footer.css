@@ -1,0 +1,33 @@
+.footer {
+    background-color: rgb(70, 88, 82);
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer_icon {
+    display: flex;
+    flex-direction: row;
+}
+.footer_companyName {
+    padding-left: 15px;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+.address_footer {
+    width: 50%;
+}
+h3,.footer_content,.copyright_sologan {
+    color: white;
+}
+
+.services_list,.resouces_list,.contactUS_list {
+    list-style: none;
+}
+
+.services_link, .resources_link,.contactUs_link {
+    color: white;
+    text-decoration: none;
+}
